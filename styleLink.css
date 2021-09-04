@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+
+body {
+  background: rgb(238, 237, 241);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+
+    img {
+        border-radius: 45%;
+        outline: whitesmoke;
+        }
+
+    .profile-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        height: auto;
+        max-width: 100px;
+        }
+        .profile-name {
+            text-align: center;
+            padding: 30px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2rem;
+            color: black;
+            }
+
+
+
+.head{
+    text-align: center;
+}
+
+.div-link{
+    padding: 20%;
+    padding-left: 11%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.alink{
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+    background-color:rgb(238, 12, 238);
+    padding: 20px 0px;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 1px;
+    max-width: 590px;
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+.alink:hover{
+    color:rgb(121, 26, 199);
+    background-color : white;
+    border: solid 2px;
+    
+
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    @media (max-width:1000px){
+
+        html{
+            font-size: 55%;
+        }
+    
+        .home{
+            padding:1rem 4rem;
+        }
+    
+    }
+    
+    @media (max-width:991px){
+    
+       header{
+           left:-120%;
+       }
+
+       #menu{
+        display: block;
+    }
+ 
+    header.toggle{
+     left:0%;
+    }
+ 
+    body{
+        padding:0;
+    }
+ 
+ }
+ 
+ @media (max-width:768px){
+ 
+     html{
+         font-size: 50%;
+     }
+  
+  }
+ 
+ @media (max-width:400px){
+ 
+     header{
+         width: 100vw;
+     }
+ 
+     .heading{
+         margin:0 3rem;
+     }
+    } 
